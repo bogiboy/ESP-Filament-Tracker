@@ -25,7 +25,7 @@ A lightweight, web-based filament management system designed for ESP32. Effortle
 
     Multilingual: Supports both English and German.
 
-    <img width="1573" height="887" alt="grafik" src="https://github.com/user-attachments/assets/49045aa6-cbd9-4fae-8043-5f1a295239bd" />
+![Login Screenshot](https://github.com/bogiboy/ESP-Filament-Tracker/blob/main/screenshots/dunkel.png)
 
 
 ##    🏷️ Smart QR-Code Labels & Export
