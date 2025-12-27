@@ -60,7 +60,7 @@ How it Improves your Workflow
 ## 🚀 Installation
 1. Web Flasher
 
-Visit the Web Flasher [![Flash with ESPWebTool](https://img.shields.io/badge/Flash-with%20ESPWebTool-52a552?style=for-the-badge&logo=espressif)](https://joecoooool.github.io/ESP-Filament-Tracker/), select your specific board, and click Flash.
+Visit the Web Flasher [![Flash with ESPWebTool](https://img.shields.io/badge/Flash-with%20ESPWebTool-52a552?style=for-the-badge&logo=espressif)](https://joecoooool.github.io/FilaTrack/), select your specific board, and click Flash.
 2. First-Time Setup (WiFi)
 
     After flashing, the ESP will create a WiFi Access Point named Filament-Tracker-Setup.
