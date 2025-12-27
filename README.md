@@ -1,3 +1,5 @@
+[Deutsche Version](https://github.com/JoeCoooool/FilaTrack/blob/main/README.de.md)
+
 ## 🧵 FilaTrack - Cheap Wifi Filament Manager
 
 A lightweight, web-based filament management system designed for ESP32. Effortlessly manage your 3D printing materials, track remaining stock, and print QR code labels directly from your microcontroller.
