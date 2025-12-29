@@ -1,0 +1,51 @@
+You will need button card 
+
+type: custom:button-card
+entity: sensor.filament_tracker
+show_icon: false
+show_name: false
+show_state: false
+
+custom_fields:
+  filaments: |
+    [[[
+      const list = states['sensor.filament_tracker'].attributes.filaments || [];
+      return list.map(f => `
+        <div style="margin-bottom:16px;">
+          <div style="font-weight:600;">
+            ${f.hersteller} – ${f.material}
+          </div>
+
+          <div style="font-size:13px;opacity:0.85;">
+            Rest: ${f.rest} g · Menge: ${f.stueck}
+          </div>
+
+          <div style="font-size:12px;opacity:0.8;">
+            🔥 Düse: ${f.nozzle_min}–${f.nozzle_max} °C
+            &nbsp;|&nbsp;
+            🛏 Bett: ${f.bed_min}–${f.bed_max} °C
+          </div>
+
+          <div style="height:8px;background:#444;border-radius:4px;margin-top:6px;">
+            <div style="
+              height:8px;
+              width:${Math.min(100, f.rest / 10)}%;
+              background:${f.farbe};
+              border-radius:4px;">
+            </div>
+          </div>
+        </div>
+      `).join('');
+    ]]]
+
+styles:
+  grid:
+    - grid-template-areas: '"filaments"'
+    - grid-template-columns: 1fr
+  card:
+    - padding: 14px
+    - text-align: left
+  custom_fields:
+    filaments:
+      - width: 100%
+      - justify-self: start
