@@ -18,7 +18,12 @@ A lightweight, web-based filament management system designed for ESP32. Effortle
     Smart Progress Bar: The color-coded bar on each filament card automatically shrinks as the remaining weight decreases.
 
     The bar reflects the percentage of filament left (based on a standard 1kg spool), giving you an instant overview of which spools are running low.
-
+   
+    REST API / Smart Home Integration:
+    FilaTrack provides a built-in REST API that exposes the complete filament inventory as JSON.
+    This allows easy integration with Home Assistant, dashboards, automations, or custom scripts.
+    The API includes remaining filament weight, color, quantity, and recommended nozzle and bed temperature ranges.
+    
     WiFi Captive Portal: Effortless WiFi configuration via a dedicated setup Access Point.
 
     Backup & Restore: Download your entire database as a binary file and restore it whenever needed.
